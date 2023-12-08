@@ -29,7 +29,7 @@ class Label extends StatelessWidget {
             },
             child: Text(title,
                 style: GoogleFonts.openSans(
-                  color: Colors.blue[600],
+                  color: Color.fromRGBO(163, 73, 164, 1),
                   fontSize: 18,
                   fontWeight: FontWeight.bold,
                 )),

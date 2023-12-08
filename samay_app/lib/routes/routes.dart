@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:samay_app/pages/chat_page.dart';
+import 'package:samay_app/pages/home_page.dart';
 import 'package:samay_app/pages/loading_page.dart';
 import 'package:samay_app/pages/login_page.dart';
 import 'package:samay_app/pages/register_page.dart';
@@ -12,4 +13,5 @@ final Map<String, WidgetBuilder> appRoutes = {
   'login': (_) => LoginPage(),
   'register': (_) => RegisterPage(),
   'loading': (_) => LoadingPage(),
+  'home': (_) => HomePage(),
 };

@@ -17,7 +17,7 @@ class RegisterPage extends StatelessWidget {
                 Logo(title: "Regístrate"),
                 _Form(),
                 Label(
-                  root: 'login',
+                  root: 'usuario',
                   subTitle: "Ya tienes una cuenta",
                   title: "Ingresa ahora",
                 ),

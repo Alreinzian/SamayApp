@@ -20,7 +20,7 @@ class BlueButton extends StatelessWidget {
           )),
       style: ElevatedButton.styleFrom(
         shape: StadiumBorder(),
-        backgroundColor: Colors.blue,
+        backgroundColor: Color.fromRGBO(163, 73, 164, 1),
         foregroundColor: Colors.white,
       ),
       onPressed: onPressed,

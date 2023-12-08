@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:samay_app/pages/home_page.dart';
+import 'package:samay_app/pages/usuarios_page.dart';
 import '../widgets/widgets.dart';
 
 class LoginPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xffF2F2F2),
+      backgroundColor: const Color.fromARGB(255, 241, 241, 245),
       body: SafeArea(
         child: SingleChildScrollView(
           physics: BouncingScrollPhysics(),
@@ -64,8 +66,12 @@ class __FormState extends State<_Form> {
           ),
           BlueButton(
             onPressed: () {
-              print(emailCtrl.text);
-              print(passCtrl.text);
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => HomePage(),
+                ),
+              );
             },
             text: 'Ingresar',
           ),
