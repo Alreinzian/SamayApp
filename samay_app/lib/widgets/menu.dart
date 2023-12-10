@@ -25,7 +25,7 @@ class Menu extends StatelessWidget {
             );
           }),
       MenuButton(
-          icon: Icons.content_paste_outlined,
+          icon: Icons.location_on_outlined,
           onPressed: () {
             print('Icon daniel');
           }),
